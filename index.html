@@ -14,7 +14,7 @@
         <label id="name-label" for="name">Name <input id="name" type="text" placeholder="Enter your name" required /></label>
         <label id="email-label" for="email">Email <input id="email" type="email" placeholder="Enter your email" required /></label>
         <label id="number-label" for="age">Age (optional)<input id="number" type="number" min="13" max="120" placeholder="Age" /></label>
-        <label id="describes">Which option best describes your current role?</label>
+        <label id="describes">Which option best describes your current role?
            <select id="dropdown">
             <option value="">Select current role</option>
             <option value="1">Student</option>
@@ -23,12 +23,24 @@
             <option value="4">Prefer not to say</option>
             <option value="5">Other</option>
           </select>
+            </label>
       </fieldset>
         <fieldset>
         <label for="recommend">Would you recommended freeCodeCamo to a friend?</label>
         <label for="definitely"><input id="definitely" type="radio"  value="friend" name="friend" class="inline" /> Definitely</label>
         <label for="maybe"><input id="maybe" type="radio" value="friend" name="friend" class="inline" /> Maybe</label>
         <label for"notsure"><input id="notsure" type="radio" value="friend" name="friend" class"inline"> Notsure</label>
+    </fieldset>
+        <fieldset>
+      <label for="favorite-feature">What is your favorite feature of freeCodeCamp?
+        <select id="favorite-feature">
+          <option value="">Select an option</option>
+          <option value="1">Challenges</option>
+          <option value="2">Projects</option>
+          <option value="3">Community</opyion>
+          <option value="4">Open Source</option>
+        </select>
+      </label>
     </fieldset>
 </body>
 </html>
