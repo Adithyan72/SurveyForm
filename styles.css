@@ -1,0 +1,12 @@
+body{
+  text-align: center;
+  font-family: Marker Felt, fantasy;
+  background-color:coral;
+  color:black;
+}
+fieldset{
+  border: 0
+}
+label{
+  display:block;
+}
